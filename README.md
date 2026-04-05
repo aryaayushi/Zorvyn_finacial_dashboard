@@ -1,6 +1,6 @@
 # Zorvyn Finance Vault
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://aryaayushi.github.io/Zorvyn_finacial_dashboard/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Faryaayushi%2FZorvyn_finacial_dashboard)
 
 A production-ready, interactive, and beautifully designed full-stack finance dashboard. **Zorvyn Finance Vault** helps you manage transactions, analyze your spending habits deeply, visualize income vs. expenses, and track your net savings using dynamic layouts and advanced components.
 
