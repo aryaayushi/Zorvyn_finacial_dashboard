@@ -1,16 +1,48 @@
-# React + Vite
+# Zorvyn Finance Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-ready, interactive, and beautifully designed full-stack finance dashboard. **Zorvyn Finance Vault** helps you manage transactions, analyze your spending habits deeply, visualize income vs. expenses, and track your net savings using dynamic layouts and advanced components.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Smart Overview Dashboard**: High-level snapshot of your balances, total income, expenses, and a custom spend analysis donut chart.
+- **Transaction Management**: Comprehensive CRUD tables with filtering, sorting, search, and intuitive entry generation.
+- **Deep Insights & Analytics**: Powered by `recharts`. Contains interactive bar charts, area charts, line charts, and pie charts with clean tooltips and dynamic color mapping.
+- **Premium Aesthetics**: Fully custom dark/light mode UI, vibrant gradients, custom typography (`Inter`), and a polished glassmorphic aesthetic built with plain CSS.
+- **Role-Based Access Control**: Simulate different access levels natively (Admin, Analyst, Viewer).
+- **Data Export**: Export your generated transactions directly to a `.csv` file.
+- **Context API Management**: Fully local, robust state management using React Context.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend Framework**: [React 18](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Data Visualization**: [Recharts](https://recharts.org/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Styling**: Vanilla CSS (CSS Variables for dynamic theming)
 
-## React Compiler
+## 📦 Running the Application Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/aryaayushi/Zorvyn_finacial_dashboard.git
+   cd Zorvyn_finacial_dashboard
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View in browser:**
+   Open [http://localhost:5173/](http://localhost:5173/) or the port specified in your console.
+
+## 🎨 Interface Highlights
+- **Spend Analysis Donut**: A customized, fully interactive donut chart mapping the inner values intuitively.
+- **AI-Generated Insights**: The dashboard reads your spendings and injects context-specific tips directly into the UI.
+- **Quick Theme Toggle**: Instantly switch between the deep "Dark Vault" and the clean "Light Mode" from the top navigation pane. 
+
+## 🛡️ License
+This project is open-source and available under the [MIT License](LICENSE).
