@@ -6,17 +6,17 @@
 
 :root {
   /* Dark theme */
-  --bg-primary: #06061a;
-  --bg-secondary: #0d0d2b;
-  --bg-card: #111130;
-  --bg-card-hover: #161640;
-  --bg-input: #1a1a40;
-  --border: rgba(99, 102, 241, 0.15);
-  --border-hover: rgba(99, 102, 241, 0.35);
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
+  --bg-card: #111111;
+  --bg-card-hover: #1a1a1a;
+  --bg-input: #1e1e1e;
+  --border: rgba(60, 60, 60, 0.4);
+  --border-hover: rgba(99, 102, 241, 0.4);
 
-  --text-primary: #f0f0ff;
-  --text-secondary: #8888bb;
-  --text-muted: #555588;
+  --text-primary: #f5f5f5;
+  --text-secondary: #999999;
+  --text-muted: #666666;
 
   --accent-blue: #6366f1;
   --accent-blue-glow: rgba(99, 102, 241, 0.4);
